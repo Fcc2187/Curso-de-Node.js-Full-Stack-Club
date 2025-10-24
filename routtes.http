@@ -1,0 +1,32 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "firstName": "Renata",
+    "lastName": "Caminha",
+    "email": "Renata@gmail.com",
+    "password":  "renata123"
+
+}
+
+###
+GET http://localhost:8080/users
+
+
+###
+GET http://localhost:8080/users/68fbc5b5912fed0e7d351d5f
+
+
+###
+PUT http://localhost:8080/users/68fbc5b5912fed0e7d351d5f
+Content-Type: application/json
+
+{
+    "firstName": "Ginho",
+    "lastName": " Silva",
+    "email": "ginho.silva@gmail.com"
+}
+
+###
+DELETE http://localhost:8080/users/68fbc5b5912fed0e7d351d5f
+
